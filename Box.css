@@ -1,0 +1,19 @@
+body{
+    background-image:url('./y.jpg');
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+color: blue;
+font-family: cursive;
+}
+ul{
+    background-color:rgb(196, 123, 28), rgb(31, 230, 48), rgb(42, 42, 179);
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    text-shadow: 4px 2px cyan;
+}

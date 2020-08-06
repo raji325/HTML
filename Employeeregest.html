@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-size:contain;
+        background-image: url('./o.jpg');
+    }
+</style>
+<body>
+    <table align="center">
+        <tr>
+            <td>
+                <img src="./emp.jpg" width="100" height="100">
+            </td>
+            <td>
+                <h1>Employee Registration Form</h1>
+            </td>
+        </tr>
+    </table>
+    <table align="center">
+        <tr>
+            <td> 
+                <input type="radio" name="gender" value="mr" id="">Mr
+                <input type="radio" name="gender" value="mrs" id="">Mrs
+                <input type="radio" name="gender" value="Ms" id="">Ms
+            </td>
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="fname" value="" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="fname" value="" placeholder="Last Name"></td>
+        </tr>
+        
+        <tr>
+            <td>Mail Address1</td>
+            <td><input type="text" name="text1" value=""></td>
+        </tr>
+        <tr>
+            <td>Mail Address2</td>
+            <td><input type="text" name="text2" value=""></td>
+        </tr>
+
+        <tr>
+            <td>City</td>
+            <td><input type="text" name="City" value=""></td>
+        </tr>
+         <tr>
+             <td>State</td>
+             <td>
+                 <select name="states" id="">
+                     <option value="andhar pradersh">andhar pradersh</option>
+                     <option value="karnataka">karnataka</option>
+                     <option value="tamilnadu">tamilnadu</option>
+                     <option value="kerala">kerala</option>
+                 </select>
+             </td>
+         </tr>
+         <tr>
+             <td>Zip</td>
+             <td><input type="text" name="Zip"value=""></td>
+         </tr>
+         <tr>
+             <td>
+                 Upload Photo
+             </td>
+             <td><input type="file" name="Upload"value=""></td>
+         </tr>
+         <tr>
+             <td>Moblie</td>
+             <td><input type="text" name="phno"value=""></td>
+         </tr>
+         <tr>
+             <td>Languages Known</td>
+              <td><input type="checkbox" name="Languages"value="english">English<br>
+                <input type="checkbox" name="Languages"value="telugu">Telugu<br>
+              <input type="checkbox" name="Languages"value="Hindi">Hindi<br>
+              <input type="checkbox" name="Languages"value="Kanada">Kanada<br>
+              </td>
+         </tr>
+         <tr>
+             <td>
+                 Additional Informatation
+             </td>
+             <td><textarea name="info"id=""cols="30" rows="10" placeholder="optional"></textarea></td>
+         </tr>
+         <tr>
+             <td><input type="submit" value="submit">
+                <input type="reset" value="reset"></td>
+                </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+body{
+    background-image: url('./o.jpg');
+}
+nav {
+    widows: 100%;
+    background-attachment: rgba(80,30,180.411);
+     display:inline-grid;
+}
+.topnav
+{
+    background-color: #333;
+    overflow: hidden;
+}
+.a
+{
+    text-decoration:none;
+    float: left;
+    padding: 10px 20px;
+    color: white;
+}
+.b
+{
+    text-decoration:none;
+    float: right;
+    padding: 10px 40px;
+    color:white;
+
+}
+.topnav:hover
+{
+background-color: black;
+}
+.b :hover
+{
+background-color: blueviolet;
+}

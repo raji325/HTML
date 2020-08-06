@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>   
+    <form action="#" method="POST" novalidate>
+        <fieldset>  
+        <legend>personal details</legend>
+        Username:<input type="text" name="unname" value="chitti" readonly><br>
+        fname:<input type="text" name="fname" value="" minlength="3" maxlength="5"><br>
+        lastname:<input type="text" name="name" value="" placeholder="enter ur first name" required><br>
+        Password:<input type="password" name="pwd" id="" placeholder="enter ur password" pattern="raji123" ><br>
+        Address:<textarea name="" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+    <label for="user">USername</label>
+    <input type="text" name="" value="" id="user">
+        Gender:<br><input type="radio" name="gender"value="male">MALE<br>
+        <input type="radio" name="gender"value="female">FEMALE<br>
+        <input type="number" max="100" min="0" step="2"><br>
+        States:
+        <select name="States" size="3" id="">
+            <option value="karnataka">karnataka</option>
+            <option value="hyderabad">hyderabad</option>
+            
+            <option value="telangana">telangana</option>
+            <option value="kerala">kerala</option>
+        </select><br>
+       companies:<input type="checkbox" name="companies" value="capgemini">CG<br>
+        <input type="checkbox" name="companies" value="Infosys">INFS<br>
+        <input type="checkbox" name="companies" value="TCS">TCS<br>
+        <input type="file" name="upload a documatation" id="">
+
+        <input type="submit" value="login">
+        <input type="reset" value="Reset">
+    
+    </form>
+</body>
+</html>

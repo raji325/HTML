@@ -1,0 +1,19 @@
+.one
+{
+    color: red;
+}
+.two
+{
+    color: blue;
+}
+.one,.two{
+    background-color: chartreuse;
+}
+#id1
+{
+    color: red;
+}
+#id2
+{
+    color: blue;
+}
